@@ -4,12 +4,6 @@
   "description": "Extension to add a IDE-like minimap",
   "author": "Dylan Ballandras",
   "permissions": ["declarativeContent", "activeTab"],
-  "content_scripts": [
-    {
-      "js": ["main.iife.min.js"],
-      "matches": ["<all_urls>"]
-    }
-  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false

@@ -47,3 +47,8 @@ const initMinimap = () => {
 };
 
 window.initMinimap = initMinimap;
+window.removeMinimap = function() {
+    document.getElementById(canvasId).remove();
+};
+
+initMinimap();
